@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+section{
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+a{
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    right: 0;left: 0;
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    z-index: 2;
+    
+}
+.mobilelist i {
+    display: none;
+}
+.bars{
+    display: none !important;
+}
+.logo{
+    color: rgb(36, 44, 44);
+    font-size: 2.5rem;
+    padding: 5rem 0px;
+ 
+}
+.navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    gap: 0 2rem;
+
+
+}
+.navbar li a{
+    color: rgb(36, 44, 44);
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
+.subscrip a{
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 900;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.contectsoshil{
+    display: none;
+}
+main{
+    position: relative;
+    background-color: #fff6f0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10vh 20vh;
+    background-image: #fff;
+    overflow:hidden !important;
+    
+}
+main::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(250, 164, 93);
+    width: 50%;
+    height: 100vh;
+    left: 0;
+    opacity: 0.8;
+    mix-blend-mode: darken !important;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+}
+.learn{
+    font-size: 3rem;
+    color: rgb(250, 164, 93);
+    display: inline-flex;
+    margin-bottom: 1rem;
+    font-weight: 900;
+}
+.text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem 0rem;
+    align-items: flex-end;
+    text-align: right;
+    
+    
+}
+.text h2{
+    color: rgb(36, 44, 44);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.text p{
+    color: rgb(250, 164, 93);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+.text a {
+    color: rgb(36, 44, 44);
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color:  rgb(250, 164, 93);
+    padding: 0.8rem 1.5rem;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.imgmain{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imgmain img{
+    z-index: 1;
+    object-fit: cover;
+    width: 50vw;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    }
+.ornge{
+    opacity: 1;
+    position: absolute;
+    margin: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw !important;
+    object-fit: cover;
+    mix-blend-mode: screen !important;
+    z-index: 10;
+}
+.socheilmedi{
+    position: absolute;
+    left: 2rem;
+    bottom: 0;
+    top: 0;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 3rem;
+    z-index: 5;
+    
+}
+.socheilmedi i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.socheilmedi a{
+    padding: 1rem;
+    border-radius: 50%;
+    color:#fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.fatcher{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;right: 0;
+    margin: auto;
+    background-color: #fff;
+    z-index: 10;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    gap: 1rem 4rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.fatcher div{
+    width: auto;
+    color: rgb(250, 164, 93);
+    font-size: 1rem;
+    font-weight: 500;
+
+
+}
+.fatcher div i{
+    padding:1rem;
+    border-radius: 50%;
+    background-color:  rgb(250, 164, 93);
+    color: rgb(36, 44, 44);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+}
+.famoblie{
+    display: none;
+}
+
+.navbaranme{
+
+    background-color: #fff;
+    width: 100%;
+    z-index: 1000;
+    padding: 0rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    animation:fadeInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+.logochange{
+
+    color: rgb(250, 164, 93) !important;
+}
+
+.active{
+    background-color: rgb(250, 164, 93) !important;
+    padding: 0.5rem;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+    color: #fff !important;
+    font-weight: 900;
+    transform: scale(1.1) !important;
+
+}
+.mobileslider{
+    display: none;
+}

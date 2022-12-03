@@ -1,0 +1,267 @@
+@media only screen and (max-width: 950px) {
+    main::after{
+        content: "";
+        position: absolute;
+        background-color: rgb(250, 164, 93);
+        width: 100%;
+        height: 50vh;
+        left: 0;right: 0;
+        bottom: 0;
+        border-radius: 0;
+    }
+    .socheilmedi{
+       display: none;
+
+    }
+    .subscrip a{
+        color:rgb(250, 164, 93) ;
+        background-color: #fff;
+    }
+    .btnsub{
+        color: #fff !important;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    
+    main{
+        flex-direction: column;
+        padding: 15vh 5vw;
+    }
+    .bars{
+        display: inline-flex !important;
+        color: #fff;
+        transform: rotate(-180deg);
+        font-weight: 900;
+        font-size: 1.5rem;
+
+    }
+    .text{
+        width: 100%;
+        padding: 0;
+    }
+    .text h2{
+        font-size: 1.5rem;
+    }
+    .imgmain{
+        width: 100%;
+       margin-top: 2rem;
+    }
+    header{
+        background-color:rgb(250, 164, 93);
+        width: 100%;
+        justify-content: space-around;
+    }
+    .logo{
+        color: #fff;
+    }
+    
+    .navbar{
+        overflow: hidden;
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        gap: 10vh;
+        height: auto;
+        top: -100vh;
+        background-color: #fff;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.5s ease-in-out;
+        z-index: 500 !important;
+        padding: 2rem 0rem;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+  
+.mobilelist{
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+}
+.mobilelist a{
+    text-align: right;
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.5rem !important; 
+}
+   .contectsoshil{
+        display: inline;
+        width: 100%;
+       
+    }
+    .sochelphone{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .sochelphone a{
+        cursor: pointer;
+        background-color: #272727;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    .sochelphone a i{
+        font-size: 1.5rem;
+        color: rgb(250, 164, 93);
+    }
+    .imgmain img{
+        border-radius: 0px;
+        padding: 0;
+        width: 100%;
+    }
+    a.btnsub {
+        z-index: 1;
+    }
+   
+    .gooles{
+        padding: 0 !important;
+        flex-direction: column-reverse !important;
+    }
+    .gooles div {
+        width: 100%;
+    }
+    .textgooles{
+        padding: 0 !important;
+    }
+    .imgdesgoles{
+        border-radius: 0px !important;
+        margin-top: 0rem !important;
+    }
+    .textgooles{
+        padding: 1rem 2rem !important;
+        margin-top: 2rem;
+    }
+    .fapc{
+        display: none;
+    }
+    .pc{
+        display: none !important;
+
+    }
+    .famoblie{
+        display: flex;
+        position: relative;
+    }
+    .famoblie{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 4rem 2rem;
+        gap: 3rem;
+        background-color: #fff;
+    }
+    .famoblie div{
+        direction: rtl;
+        font-size: 1.5rem;
+        gap: 2rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: right;
+    }
+    .famoblie div i{
+        color: #fff;
+        padding: 1.5rem;
+        background-color: rgb(250, 164, 93);
+        border-radius: 50%;
+    }
+    .Course_themes{
+        flex-direction: column !important;
+    }
+    h2.titelCourse_themes {
+        margin-top: 2rem;
+    }
+
+    .clien{
+        flex-direction: column;
+        padding: 0rem !important;
+        margin-top: 2rem;
+    }
+ 
+
+    .item_clien{
+        width: 100% !important;
+        border-radius: 0px !important;
+    }
+
+    .swiper.mySwiper.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-backface-hidden {
+        width: 100%;
+    }
+
+    .endfooter{
+        flex-direction: column-reverse;
+        padding: 0px;
+        gap: 2rem;
+        height: auto !important;
+        
+    }
+    .endfooter ul{
+        flex-direction: column !important;
+        width: 100%;
+
+    }
+
+    .endfooter ul a{
+        font-size: 1.3rem;
+    }
+    footer{
+        padding: 0px !important;
+    }
+    .itemhomefooter{
+        gap: 0rem ;
+    }
+    .itemhomefooter h1{
+        margin-top: 1rem;
+        }
+   
+        .moblierswper{
+            padding: 2rem;
+        }
+
+        .mobileslider{
+            display: block !important;
+        }
+
+  }
+
+  @media only screen and (max-width: 300px) {
+    .famoblie div{
+        font-size: 1.2rem;
+    }
+    .sochelphone a{
+        padding: 1rem;
+    }
+    .sochelphone a i{
+        font-size: 1rem;
+        color: rgb(250, 164, 93);
+    }
+    .mobilelist a{
+        font-size: 1rem !important;
+    }
+
+   
+  
+  }
+
+  @media only screen and (max-width: 1500px) {
+    main::after{
+        border-radius: 0px;
+    }
+  }
+
+  @media only screen and (width: 1024px) {
+   .socheilmedi{
+    left: 1rem;
+   }
+  }

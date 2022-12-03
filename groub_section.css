@@ -1,0 +1,312 @@
+header.headernav {
+    z-index: 99;
+}
+.groub_section{
+    z-index: 2;
+    position: absolute;
+    top: 100vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.gooles{
+    padding: 4rem 4rem;
+    background-color: #fff6f0;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.imgdesgoles{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgb(36, 44, 44);
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
+    margin-top: 3rem;
+    mix-blend-mode: color-burn;
+
+
+}
+.imgdesgoles img{
+    
+    object-fit: cover;
+    width: 100%;
+    mix-blend-mode: screen;
+}
+.textgooles{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 3rem;
+    padding: 2rem 4rem;
+  
+    
+}
+.textgooles h3{
+    font-size: 2.3rem;
+    color: rgb(250, 164, 93);
+   font-weight: 700;
+}
+.textgooles ul{
+    color: rgb(36, 44, 44);
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    direction: rtl;
+    gap: 2rem;
+    list-style: decimal;
+  
+}
+.textgooles ul li{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+.Course_themes{
+    position: relative;
+    background-color: #fff6f0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    height: auto;
+    padding: 5rem;
+    margin: auto;
+}
+.Course_themes div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 20%;
+    margin-top: 5rem;
+
+}
+
+.Course_themes div i{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: rgb(250, 164, 93);
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+    z-index: 5;
+
+
+}
+.Course_themes div i::after{
+    z-index: 0 !important;
+    position: absolute;
+    content: "";
+    width: 200px;
+    height: 50px;
+    left: 0;
+    border-radius: 50%;
+    top: 0;
+    background-color: rgb(250, 164, 93);
+    box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+
+}
+.Course_themes div h5 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    color: rgb(250, 164, 93);
+    text-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+
+}
+
+.titelCourse_themes{
+    position: absolute;
+    top: 0vh;
+    right: 9vw;
+    font-size: 2.3rem;
+    color: rgb(250, 164, 93);
+   font-weight: 700;
+   display: inline-flex;
+    
+}
+
+.clien{
+    width: 100%;
+    height: auto;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-align: right;
+    position: relative;
+}
+
+.item_clien{
+    overflow: hidden;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #fff6f0;
+    mix-blend-mode: screen;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 20px;
+
+
+}
+.imgcliem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1.5rem;
+    padding: 0rem 1rem;
+    
+    
+}
+
+.imgcliem img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.imgcliem h5{
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(250, 164, 93);
+    padding: 0.5rem 0px;
+}
+.titelclien{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.titelclien p{
+    text-align: right;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.adressclien{
+    background-color: rgb(250, 164, 93);
+    width: 100%;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 20px;
+    color: #fff6f0;
+    font-size: 1.2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.swiper-button-next{
+    display: none !important;
+}
+.swiper-button-prev{
+    display: none !important;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+   }
+   span.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background-color:rgb(250, 164, 93); ;
+   }
+
+   footer{
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding:0rem;
+    background-color:  rgb(36, 44, 44);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+   }
+   .itemhomefooter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+   }
+
+   .itemhomefooter h1{
+    color: #fff6f0;
+    font-size: 3rem;
+    font-weight: 500;
+   }
+
+   .mediafooter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+   }
+
+   .mediafooter i{
+    color: #fff6f0;
+    font-size: 1.5rem;
+
+   }
+
+   .endfooter{
+    color: #fff6f0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem ;
+    background-color: #222;
+    height: 5vh;
+    margin-top: 10px;
+
+    
+   }
+   .endfooter ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+   }
+
+   .endfooter ul a{
+    color: #fff6f0;
+   }
